@@ -20,9 +20,9 @@ echo -e "\e[1;31m* [4]\e[0m \e[1;32m: Unlimited RM1\e[0m"
 echo -e "\e[1;31m* [5]\e[0m \e[1;32m: Extend Validity 365Days\e[0m"
 echo -e ""
 echo -e ""
-read -p "        Select From Options [1-5 or x]: " menu
+read -p "        Select From Options [1-5 or x]: " digi
 echo -e ""
-case $menu in
+case $digi in
 1)
 cookie
 ;;
